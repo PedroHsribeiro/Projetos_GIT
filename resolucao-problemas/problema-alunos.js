@@ -1,7 +1,7 @@
 //Sistema que realiza a contagem e classificação da quantidade de alunos em uma sala de aula 
 const insertdata = require("prompt-sync")({sigint: true})
 
-let alunos = 9
+let alunos = 10
 if (alunos == 0){
     console.log("Não há alunos na sala no momento.")
     return
